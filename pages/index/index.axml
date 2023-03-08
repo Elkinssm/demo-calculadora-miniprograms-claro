@@ -1,0 +1,24 @@
+<view class="calculator">
+<text class="title"> Calculadora </text>
+  <view>
+    <input type="text" value="{{expression}}" disabled=""/>
+  </view>
+  <view class="buttons">
+    <button onTap="numberInput" data-value="0">0</button>
+    <button onTap="numberInput" data-value="1">1</button>
+    <button onTap="numberInput" data-value="2">2</button>
+    <button onTap="numberInput" data-value="3">3</button>
+    <button onTap="numberInput" data-value="4">4</button>
+    <button onTap="numberInput" data-value="5">5</button>
+    <button onTap="numberInput" data-value="6">6</button>
+    <button onTap="numberInput" data-value="7">7</button>
+    <button onTap="numberInput" data-value="8">8</button>
+    <button onTap="numberInput" data-value="9">9</button>
+    <button onTap="clear">C</button>
+    <button onTap="calculate">=</button>
+    <button onTap="operatorInput" data-operator="+">+</button>
+    <button onTap="operatorInput" data-operator="-" >-</button>
+    <button onTap="operatorInput" data-operator="*">*</button>
+    <button onTap="operatorInput" data-operator="/">/</button>
+  </view>
+</view>

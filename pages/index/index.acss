@@ -1,0 +1,45 @@
+page {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.display input {
+  width: 90%;
+  height: 80px;
+  font-size: 50px;
+  text-align: right;
+  border: none;
+  border-bottom: 2px solid #000;
+  background-color: #fff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 30px;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: rgb(8, 23, 43);
+  line-height: 15px;
+}
